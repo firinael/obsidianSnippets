@@ -1,0 +1,5 @@
+.markdown-preview-view table,
+.markdown-source-view .cm-embed-block table {
+    width : fit-content;
+    margin: 12px auto !important;
+}
