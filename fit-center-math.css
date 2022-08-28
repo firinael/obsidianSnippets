@@ -1,0 +1,6 @@
+.math.math-block:is(.is-loaded, .cm-embed-block) mjx-container.MathJax {
+    border-radius: 0px;
+    padding      : 20px;
+    width        : fit-content;
+    margin       : 4px auto;
+}
