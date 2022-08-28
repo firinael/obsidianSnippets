@@ -1,0 +1,10 @@
+@import url('https://lalten.github.io/lmweb/style/latinmodern-mono.css');
+@import url('https://lalten.github.io/lmweb/style/latinmodern-roman.css');
+@import url('https://lalten.github.io/lmweb/style/latinmodern-sans.css');
+
+.theme-dark,
+.theme-light {
+    --font-text     : "Latin Modern Roman";
+    --font-interface: "Latin Modern Sans";
+    --font-monospace: "Latin Modern Mono";
+}
