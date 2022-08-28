@@ -1,0 +1,3 @@
+.markdown-preview-view div:not(.is-collapsed) > *:not(:hover) > .collapse-indicator{
+    color: transparent;
+}
