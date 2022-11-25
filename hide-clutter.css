@@ -1,0 +1,22 @@
+.cm-blockid,
+.titlebar-text {
+    opacity: 0;
+}
+
+.cm-active .cm-blockid,
+.cm-blockid:hover {
+    opacity: 1;
+}
+
+.workspace-ribbon.mod-left,
+.sidebar-toggle-button.mod-right,
+.status-bar,
+.cm-s-obsidian .external-link,
+.frontmatter-container {
+    display: none;
+}
+
+.workspace-tab-header:not(:hover) .workspace-tab-header-inner-close-button,
+.workspace-tab-header-container:not(:hover) .clickable-icon {
+    visibility: hidden;
+}
