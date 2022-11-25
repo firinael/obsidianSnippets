@@ -1,3 +1,14 @@
+body {
+    --background-modifier-border-hover: transparent !important;
+    --modal-border-color              : transparent !important;
+    --prompt-border-color             : transparent !important;
+    --background-modifier-border-focus: transparent !important;
+    --background-modifier-boder       : transparent !important;
+    --input-shadow                    : none !important;
+    --blockquote-border-color         : none;
+    --divider-color                   : transparent;
+}
+
 .cm-blockid,
 .titlebar-text {
     opacity: 0;
