@@ -1,0 +1,13 @@
+h1,
+.cm-header-1 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    134deg, /* the angle of the gradient in degrees */ 
+    #ff80bf 0, /* The colour the gradient starts at */
+    #ffca80 100% /* the colour the gradient ends at */ 
+  );
+}
+
+/* source is [@caro401](https://github.com/caro401/royal-velvet/issues/13) */
