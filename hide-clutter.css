@@ -31,3 +31,9 @@ body {
 .workspace-tab-header-container:not(:hover) .clickable-icon {
     visibility: hidden;
 }
+
+.cm-s-obsidian .external-link,
+a.external-link {
+    background-image: none !important;
+    padding-right   : 0px !important;
+}
