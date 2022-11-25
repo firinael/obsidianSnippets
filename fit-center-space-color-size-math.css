@@ -1,0 +1,23 @@
+.math.math-block:is(.is-loaded, .cm-embed-block) mjx-container.MathJax {
+    border-radius: 0px;
+    padding      : 20px;
+    width        : fit-content;
+    margin       : 4px auto;
+}
+
+.markdown-preview-view .math.math-block mjx-container mjx-math.MJX-TEX {
+    padding-top   : 14px;
+    padding-bottom: 14px;
+}
+
+mjx-container.MathJax {
+    -webkit-text-fill-color: var(--text-normal);
+}
+
+.MJX-TEX {
+    font-size: 1.2em !important;
+}
+
+mjx-mtable>*>mjx-itable mjx-mtr:not(:first-of-type) mjx-mtd {
+    padding-top: 1.2em !important;
+}
