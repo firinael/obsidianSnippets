@@ -1,0 +1,43 @@
+/* pseudometa */
+/* Image Alt as caption
+(except when no explicit alt is provided and urls are the alt text) */
+body:not(.no-image-alttext-caption) .image-embed[alt]:not([alt$=".png"], [alt$=".jpg"], [alt$=".jpeg"], [alt$=".tiff"])::after {
+    display: block;
+    content: attr(alt);
+
+    font-family: var(--font-text);
+    font-size  : var(--font-smaller);
+    font-style : italic;
+
+    color: var(--text-muted);
+
+    word-spacing: -3px;
+
+    margin-top   : -1em;
+    margin-bottom: 1em;
+}
+
+.markdown-preview-view img[src] {
+    border       : var(--thin-muted-border);
+    border-radius: var(--radius-s);
+}
+
+/* centers image and image caption */
+.image-embed[alt]::after {
+    text-align: center;
+}
+
+.view-content img {
+    display     : block;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+/* ───────────────────────────────────────────────── */
+/* << Overlaying Sidebar
+──────────────────────────────────────────────────── */
+
+.mod-right-split {
+    position: absolute;
+    right   : 0;
+}
